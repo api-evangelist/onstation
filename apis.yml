@@ -1,8 +1,31 @@
 aid: onstation
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/onstation.png
 name: OnStation
-description: OnStation is a company surfaced as a portfolio company of insight-partners, techstars and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  OnStation is a digital stationing platform for road and highway construction
+  projects, replacing paper station logs and manual chaining with GPS-based
+  field documentation. Its iOS and Android mobile app lets crews, inspectors,
+  and project managers identify exact station locations, drop and share flags,
+  capture timestamped photos and notes, and complete forms in the field without
+  extra hardware. A cloud Data Portal aggregates that field documentation into
+  searchable, exportable DOT-ready reports for compliance and dispute
+  resolution, while Active Worksite alerts drivers through Waze and OEM systems
+  when crews are working. OnStation offers pre-built integrations with
+  construction and survey systems including HCSS HeavyJob, Trimble and Bad Elf
+  GNSS receivers, TransTech density gauges, FleetWatcher e-ticketing, and ESRI
+  GIS, but does not currently publish a public developer API. Backed by Insight
+  Partners and Techstars.
 url: https://raw.githubusercontent.com/api-evangelist/onstation/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -13,9 +36,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Construction
+- Road Construction
+- Field Documentation
+- Stationing
+- Geospatial
+- GPS
+- Construction Technology
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +55,28 @@ maintainers:
 common:
 - type: Website
   url: https://onstationapp.com/
+- type: Integrations
+  url: https://www.onstationapp.com/integrations
+- type: HelpCenter
+  url: https://help.onstationapp.com
+- type: Blog
+  url: https://www.onstationapp.com/blog
+- type: Pricing
+  url: https://www.onstationapp.com/pricing
+- type: SignUp
+  url: https://app.onstation.us/signup
+- type: Login
+  url: https://portal.onstation.us/login
+- type: TermsOfService
+  url: https://www.onstationapp.com/terms
+- type: PrivacyPolicy
+  url: https://www.onstationapp.com/privacy-policy
+- type: Support
+  url: https://www.onstationapp.com/contact-us
+- type: DomainSecurity
+  url: security/onstation-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
